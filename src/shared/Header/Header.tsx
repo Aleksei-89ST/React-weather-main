@@ -34,10 +34,11 @@ export const Header = (props: Props) => {
         <div className={s.change_theme}>
           <GlobalSwgSelector id="change-theme" />
         </div>
-        <Select 
-        defaultValue={options[0]}
-        styles={colourStyles}
-        options={options} />
+        <Select
+          defaultValue={options[0]}
+          styles={colourStyles}
+          options={options}
+        />
       </div>
     </header>
   );
