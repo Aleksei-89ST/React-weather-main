@@ -40,7 +40,7 @@ export const ThisDayInfo = (props: Props) => {
           <ThisDayItem key={item.icon_id} item={item} />
         ))}
       </div>
-      <img src={cloud} alt="облако" />
+      <img className={s.cloud__img} src={cloud} alt="облако" />
     </div>
   );
 };
