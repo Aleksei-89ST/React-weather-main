@@ -11,10 +11,10 @@
   padding: 40px;
   max-width: 750px;
   width: 100%;
-  background: $lite-background;
+  background: $light-background;
   box-shadow: $box-shadow;
   border-radius: $border-radius;
-  background: $lite-background;
+  background: $light-background;
 }
 
 .blur {
@@ -24,13 +24,14 @@
   height: 100vh;
   background: rgba(0, 0, 0, 0.25);
 }
+
 .close {
   position: absolute;
   top: 20px;
   right: 20px;
   cursor: pointer;
   svg {
-    transition: 0.3;
+    transition: 0.3s;
   }
   &:hover {
     svg {
@@ -38,6 +39,7 @@
     }
   }
 }
+
 .day {
   .day__temp {
     font-weight: 500;
@@ -45,8 +47,7 @@
     color: $primary-color;
     margin-bottom: 12px;
   }
-}
-.day__name {
+  .day__name {
     font-size: 25px;
     line-height: 30px;
     color: #000000;
@@ -65,4 +66,4 @@
     font-size: 15px;
     color: $base-color;
   }
-
+}

@@ -8,7 +8,7 @@ import { Popup } from "./shared/Popup/Popup";
 function App() {
   return (
     <div className="clobal-container">
-      <Popup />
+      {/* <Popup /> */}
       <div className="container">
         <Header />
         <Switch>
